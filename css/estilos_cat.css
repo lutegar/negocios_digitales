@@ -1,0 +1,43 @@
+@charset "utf-8";
+.tcatalogo {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+    line-height: normal;
+    font-weight: 900;
+    border: medium solid #000000;
+    text-align: center;
+    text-shadow: 0.2em 0.2em 16px #D4D2D2;
+    background-color: black;
+    color: white;
+}
+.ppalcatalogo {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+.piecatalogo {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: medium;
+    font-style: italic;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    display: block;
+}
+.cont1 {
+    text-align: center;
+    word-spacing: normal;
+    display: block;
+    margin: 0.2em;
+    padding: 0.2em;
+    width: 100%;
+}
+tbody tr td {
+    width: 30%;
+}
+tr td img {
+    width: 100%;
+}
+tr td h3 {
+    color: white;
+    background: black;
+}

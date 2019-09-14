@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contáctenos</title>
+	<link href="css/estilos_cat.css" rel="stylesheet" type="text/css">
+	<style>
+		form{
+			font-size: large;
+			padding: 2em;
+		}
+	</style>
+</head>
+
+<body>
+<header class="tcatalogo">CONTÁCTENOS</header>
+	
+<main>
+	<section>
+		<br>
+	  <form>
+			<label>Nombre:</label>
+		<input type="text" name="nom" placeholder="Ingrese aquí su nombre">
+			<br><br>
+			<label>Contraseña:</label>
+		<input type="password" name="contra">
+			<br><br>
+			<label>Correo:</label>
+		<input type="email" name="correo">
+			<br><br>
+		<label>Sexo:</label>
+		<table width="200">
+			  <tr>
+			    <td><label>
+			      <input type="radio" name="sexo" value="1" id="sexo_0">
+			      Mujer</label></td>
+	      </tr>
+			  <tr>
+			    <td><label>
+			      <input type="radio" name="sexo" value="2" id="sexo_1">
+			      Hombre</label></td>
+	      </tr>
+	    </table>
+		  <br>
+		  <label>Comentario:</label>
+	    <select name="tipo">
+		  		<option value="1">Felicitaciones</option>
+		  		<option value="2">Quejas</option>
+		  		<option value="3">Sugerencias</option>
+		  		<option value="4">Recomendaciones</option>
+		  		<option value="5">Reclamos</option>
+		  </select>
+		  <br><br>
+		  <textarea name="comentario" cols="80" rows="8" id="comentario"></textarea>
+		  <br>
+		  
+	    <p>
+			<label for=""><h3>Encuesta:</h3>
+			¿Dónde cree Ud. que está el habitat del Tigre de Bengala o Tigre Blanco? (puede señalar 1 o más opciones).</label>
+			<br><br>
+		    <label>
+		      <input type="checkbox" name="encuesta" value="1" id="encuesta_0">
+		      Africa</label>
+		    <br>
+		    <label>
+		      <input type="checkbox" name="encuesta" value="2" id="encuesta_1">
+		      América</label>
+		    <br>
+		    <label>
+		      <input type="checkbox" name="encuesta" value="3" id="encuesta_2">
+		      Asia</label>
+		    <br>
+		    <label>
+		      <input type="checkbox" name="encuesta" value="4" id="encuesta_3">
+		      Europa</label>
+		    <br>
+		    <label>
+		      <input type="checkbox" name="encuesta" value="5" id="encuesta_4">
+		      Oceanía</label>
+		    <br>
+	    </p>
+			  <input type="submit">
+      </form>
+	</section>
+</main>
+<footer class="piecatalogo">Todos los Derechos reservados. &copy; 2019</footer>
+</body>
+</html>

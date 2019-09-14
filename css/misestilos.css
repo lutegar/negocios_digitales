@@ -1,0 +1,116 @@
+@charset "utf-8";
+.ppal .contenedor3 {
+    margin-left: 3em;
+}
+
+
+
+@media screen{
+body {
+}
+.ppal .contenedor2 {
+    width: 100%;
+}
+li {
+    text-align: justify;
+}
+	
+.ppal .arti2 {
+    width: 100%;
+    margin-left: 13px;
+    margin-top: -26px;
+    margin-right: -26px;
+    margin-bottom: -26px;
+}
+
+
+	body,td,th {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    color: #000000;
+    text-align: center;
+}
+.encabezado h1 {
+    text-shadow: .25em .25em .5em gray;
+}
+.tabla {
+    margin: auto;
+    display: block;
+    font-size: medium;
+}
+tr td video {
+	width: 80%;
+    margin: auto;
+    display: block;
+}
+tr td #tigres {
+    margin: auto;
+    display: block;
+}
+tr td audio {
+    width: 90%;
+	margin: auto;
+    display: block;
+}
+h2 {
+    text-align: left;
+    color: #823A3A;
+    text-shadow: 0.3em .30em 3px gray;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+tr td #tigres {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 80%;
+}
+
+tr td video {
+    margin: auto;
+    display: block;
+}
+tr td audio {
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+table .tabla tr {
+    height: auto;
+}
+
+.encabezado {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	text-shadow: .25em 0.25em 12px #BABABA;
+	text-align: center;
+}
+.contenedor1 {
+    margin: auto;
+    display: block;
+}
+nav {
+    padding-top: .75em;
+}
+
+}
+.menu {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    background-color: #DEDEDE;
+    margin-top: 1em;
+}
+.contenedor1 {
+    display: block;
+    width: auto;
+    text-align: justify;
+}
+.contenedor2 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: large;
+    text-align: justify;
+}
