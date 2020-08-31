@@ -303,4 +303,19 @@ footer{
 
 	}
 
+
+	footer{
+		justify-content: space-evenly;
+
+	}
+
+	.partfooter{
+		width: 40%;
+		margin-bottom: 40px;
+
+
+	}
+
+
+
 }
