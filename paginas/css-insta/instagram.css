@@ -217,7 +217,7 @@ nav{
 }
 
 footer{
-	background: #f2f2f2;
+	
 	padding: 60px 0;
 	overflow: hidden;
 	display: flex;
@@ -302,5 +302,20 @@ footer{
 		width: 400px;
 
 	}
+
+
+	footer{
+		justify-content: space-evenly;
+
+	}
+
+	.partfooter{
+		width: 40%;
+		margin-bottom: 40px;
+
+
+	}
+
+
 
 }

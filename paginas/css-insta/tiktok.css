@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 }
 
-
 .foto{
 	border-radius: 50%;
 }
@@ -166,95 +165,32 @@ nav{
 
 }
 
-/*articulos*/
-
-.contenedor-articulo{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 60px;
-	justify-content: space-around;
-
-}
-
-.articulo{
-
-	width: 29%;
-	background: #fff;
-	margin-bottom: 30px;
-	border-radius: 10px;
-	padding: 45px 30px 60px 30px;
-
-
-}
-
-.articulo-hover{
-	box-shadow: 0 4px 10px rgba(89, 76, 101, 26);
-}
-
-.articulo>i{
-	font-size: 30px;
-	color:#fff;
-	background:#594C65  ;
-	display: inline-block;
-	width: 70px;
-	height: 70px;
-	text-align: center;
-	padding-top: 20px;
-	border-radius: 50%;
-	box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
-}
-
-
-.articulo>h3{
-	font-size: 24px;
-	margin-top: 30px;
-
-}
-
-.articulo>p{
-	font-weight: 100;
-	color: #5D6678;
-	margin-top: 15px;
-	padding-bottom: 20px;
-}
-
-.articulo>a{
-	color: #5D6678;
-	font-weight: 400;
-	text-decoration: none;
-
-}
-
-.articulo>a:hover{
-	color: #1FDE82;
-	transition: color .5s;
-
-
-}
-
-/*questions*/
-
 .questions{
 
 	height: 600px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 }
 
+#caja{
+	background: #f2f2f2;
+
+}
 .questions>img{
 	width: 550px;
 	
 	
 
 }
+ 
+
 
 	
 
 .textos-questions{
 
-	margin: 0 0 0 30px;
+	margin: 0 0 0 0;
 }
 
 
@@ -270,7 +206,7 @@ nav{
 	display: inline-block;
 	background: #1FDE82;
 	text-align: center;
-	color: #fff;
+	color: #f2f2f2;
 	padding: 12px;
 	text-decoration: none;
 	font.font-weight: 400;
@@ -282,111 +218,8 @@ nav{
 
 }
 
-.results{
-	background: #2570ff;
-	padding-top: 30px;
-
-}
-
-
-.content-results{
-
-	display: flex;
-	justify-content: space-evenly;
-
-}
-
-.numbers{
-	width: 80%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-.numbers .number{
-	width: 45%;
-	background: rgba(255, 255, 255, .2);
-	color: #fff;
-	border-radius: 10px; 
-	padding: 40px 35px;
-	margin-bottom: 20px; 
-
-}
-
-.numbers .number h4{
-	color: #fff;
-	font-size: 50px;	
-	font-weight: 500;
-	margin-bottom: 20px;
-}
-
-.number .number p{
-	color: #f2f5fc;
-    font-weight: 300;
-}
-
-
-.results-text{
-	width: 37%;
-
-}
-
-.results-text h4{
-	color: #fff;
-	font-size: 40px;
-
-}
-
-.results-text p{
-	color: #fff;
-	font-weight: 300;
-	margin: 20px 0;
-}
-
-.results-text a{
-	color: #fff;
-	text-decoration: none;
-	display: inline-block;	
-	border:1px solid #fff;
-	padding: 10px 0;
-	width: 120px;
-	text-align: center;
-	border-radius: 5px;
-}
-
-/*
-.services{
-
-	display: flex;
-	justify-content: space-between;
-
-}
-
-.services>img{
-	width: 500px;
-}
-
-.box-skills{
-	margin: 30px 30px 0  0;
-}
-
-.box-skills h4{
-	font-size: 	24px;
-	background: #f2f2f2;
-	width: 350px;
-	border-radius: 6px;
-	padding: 10px 0 10px 15px;
-	margin-bottom: 10px; 
-
-
-}
-
-.box-skills i{
-	color: #1FDE82;
-	font-size: 20px;
-}*/
 footer{
-	background: #f2f2f2;
+	
 	padding: 60px 0;
 	overflow: hidden;
 	display: flex;
@@ -429,35 +262,6 @@ footer{
 }
 
 
-
-/*.social-media{
-	font-size: 20px;
-	display: inline-block;
-	color:  #adb6c7;
-	border: 1px solid #adb6c7;
-	border-radius: 50%;
-	width: 38px;
-	height: 38px;
-	line-height: 36px;
-	cursor: pointer;
-	margin-top: 20px;
-	text-align: center;
-	transition: all ease-in-out .3s;
-	margin-right: 5px;
-}
-
-.social-media{
-
-	color: #fff;
-	background: #594C65;
-	border-color: #594C65;
-}
-*/
-
-/* Breakpoints responsive */
-
-
-	
 @media screen and (min-height: 800px){
 
 	.titulo{
@@ -479,29 +283,17 @@ footer{
 	.textos-header{
 		margin: 0;
 	}
-	
-	/*about us*/
-
-	.articulo{
-		width: 100%;
-		height: 100%;
-		font-size: 35px;
-
-	}
-
 	.enlaces-header{
 
 		font-size: 30px;
 	}
 
-
-
-	.questions{
+			.questions{
 
 		height: : 720px;
 		justify-content: space-evenly;
-		flex-direction: column;
-		font-size: 35px;
+		flex-direction: column-reverse;
+		font-size: 25px;
 
 
 	}
@@ -513,30 +305,6 @@ footer{
 
 	}
 
-
-	.content-results{
-		flex-direction: column-reverse;
-
-	}
-
-	.results-text>a{
-		margin-bottom: 60px;
-	}
-
-	.numbers{
-
-		width: 100%;
-
-	}
-
-	.results-text {
-		width: 100%;
-		margin: auto;
-		padding: 0 40px;
-		font-size: 25px;
-	}
-
-	/*footer*/
 
 	footer{
 		justify-content: space-evenly;
@@ -552,45 +320,4 @@ footer{
 
 
 
-
-
-
-
- }
-
-
-@media screen and (max-width: 600px){
-
-
-	.titulo{
-
-		font-size: 35px;
-	}
-
-	h1{
-		font-size: 50px;
-	}
-
-	.contenido-header{
-		height: 650px;
-		
-
-	}
-	.nav{
-		padding: 0 10px;
-	}
-
-	.contenido-header>img{
-		width: 200px;
-	}
-
-	
-	
-
-
-
-
-
- }
-
-	
+}
