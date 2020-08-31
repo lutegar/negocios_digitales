@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+
 .foto{
 	border-radius: 50%;
 }
@@ -451,3 +452,134 @@ footer{
 
 /* Breakpoints responsive */
 
+
+	
+@media screen and (min-height: 800px){
+
+	.titulo{
+		font-size: 45px;
+	}
+
+	.contenido-header{
+
+		flex-direction: column-reverse;
+		justify-content: space-evenly;
+		height: 720px;
+	}
+
+	.contenido-header>img{
+		width: 400px;
+
+	}
+
+	.textos-header{
+		margin: 0;
+	}
+	
+	/*about us*/
+
+	.articulo{
+		width: 100%;
+		height: 100%;
+		font-size: 35px;
+
+	}
+
+	.questions{
+
+		height: : 720px;
+		justify-content: space-evenly;
+		flex-direction: column;
+		font-size: 35px;
+
+
+	}
+
+	
+
+	.questions>img{
+		width: 400px;
+
+	}
+
+
+	.content-results{
+		flex-direction: column-reverse;
+
+	}
+
+	.results-text>a{
+		margin-bottom: 60px;
+	}
+
+	.numbers{
+
+		width: 100%;
+
+	}
+
+	.results-text {
+		width: 100%;
+		margin: auto;
+		padding: 0 40px;
+		font-size: 25px;
+	}
+
+	/*footer*/
+
+	footer{
+		justify-content: space-evenly;
+
+	}
+
+	.partfooter{
+		width: 40%;
+		margin-bottom: 40px;
+
+
+	}
+
+
+
+
+
+
+
+ }
+
+
+@media screen and (max-width: 600px){
+
+
+	.titulo{
+
+		font-size: 35px;
+	}
+
+	h1{
+		font-size: 50px;
+	}
+
+	.contenido-header{
+		height: 650px;
+		
+
+	}
+	.nav{
+		padding: 0 10px;
+	}
+
+	.contenido-header>img{
+		width: 200px;
+	}
+
+	
+	
+
+
+
+
+
+ }
+
+	
