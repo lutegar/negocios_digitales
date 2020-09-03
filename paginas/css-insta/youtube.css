@@ -114,6 +114,11 @@ nav{
 
 }
 
+#caja{
+
+	background: #f2f2f2;
+}
+
 @keyframes animat{
 	0%{
 		transform: scale(0);
@@ -142,7 +147,7 @@ nav{
 	margin: 28px 0 0 0;
 	width: 130px;
 	display: inline-block;
-	background: #BF75FF;
+	background: black;
 	text-align: center;
 	color: #fff;
 	padding: 12px;
@@ -234,17 +239,12 @@ nav{
 
 /*questions*/
 
-#caja{
-	background: #f2f2f2;
-}
-
 .questions{
 
 	height: 600px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 
 }
 
@@ -273,7 +273,7 @@ nav{
 	margin: 28px 0 0 0;
 	width: 130px;
 	display: inline-block;
-	background: #BF75FF;
+	background: black;
 	text-align: center;
 	color: #fff;
 	padding: 12px;
