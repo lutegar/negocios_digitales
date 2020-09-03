@@ -500,7 +500,7 @@ footer{
 
 		height: : 720px;
 		justify-content: space-evenly;
-		flex-direction: column;
+		flex-direction: column-reverse;
 		font-size: 35px;
 
 

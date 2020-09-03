@@ -147,7 +147,7 @@ nav{
 	margin: 28px 0 0 0;
 	width: 130px;
 	display: inline-block;
-	background: black;
+	background: red;
 	text-align: center;
 	color: #fff;
 	padding: 12px;
@@ -273,7 +273,7 @@ nav{
 	margin: 28px 0 0 0;
 	width: 130px;
 	display: inline-block;
-	background: black;
+	background: red;
 	text-align: center;
 	color: #fff;
 	padding: 12px;
@@ -505,7 +505,7 @@ footer{
 
 		height: : 720px;
 		justify-content: space-evenly;
-		flex-direction: column;
+		flex-direction: column-reverse;
 		font-size: 35px;
 
 
